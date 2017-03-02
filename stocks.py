@@ -30,4 +30,5 @@ while(len(user_data)):
 for x in stock_dict:
     print(stock_dict.get(x))
 
+print()
 print(*stock_dict.values(), sep="\n")
